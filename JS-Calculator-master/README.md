@@ -1,7 +1,7 @@
 # JS-Calculator
  A pure vanilla Javascript calculator.
  
-https://oliverjacobb.github.io/JS-Calculator/
+https://oliverjacobb.github.io/JavascriptCalculator/
 
 # Motivation 
 
