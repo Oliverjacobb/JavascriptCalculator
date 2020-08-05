@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="images/icons8-calculator-16.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container-fluid container calculator">
+        <div class="row brandRow">
+            <div class="col-6">
+                <h1 class="title">CASIO</h1>
+                <span class="model"><i>fx</i>-85MS</span>
+            </div>
+
+            <div class="col-4">
+                <div class="solar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="displayContainer">
+            <input type="text" class="display" maxlength="6" disabled>
+        </div>
+
+        <div class="buttonContainer">
+            <div class="keyRow row">
+
+
+            </div>
+
+            <div class="row topRow">
+                <button class="btn btn btn-danger keyOff">OFF</button>
+                <button class="btn btn-danger keyClear" id="key">C</button>
+                <button class="btn btn-info keyEqual" id="key">=</button>
+            </div>
+
+            <div class="keyRow row">
+                <button class="btn btn-info keyOperator" id="key">+</button>
+                <button class="btn btn-info keyOperator" id="key">-</button>
+                <button class="btn btn-info keyOperator" id="key">X</button>
+                <button class="btn btn-info keyOperator" id="key">÷</button>
+
+            </div>
+
+            <div class="keyRow row">
+                <button class="btn btn-info keyOperator" id="key">%</button>
+                <button class="btn btn-info keyDecimal" id="key">.</button>
+                <button class="btn btn-dark number" id="key">0</button>
+                <button class="btn btn-dark number" id="key">1</button>
+
+            </div>
+
+            <div class="keyRow row">
+                <button class="btn btn-dark number" id="key">2</button>
+                <button class="btn btn-dark number" id="key">3</button>
+                <button class="btn btn-dark number" id="key">4</button>
+                <button class="btn btn-dark number" id="key">5</button>
+
+            </div>
+
+            <div class="keyRow row">
+                <button class="btn btn-dark number" id="key">6</button>
+                <button class="btn btn-dark number" id="key">7</button>
+                <button class="btn btn-dark number" id="key">8</button>
+                <button class="btn btn-dark number" id="key">9</button>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
